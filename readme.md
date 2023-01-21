@@ -1,46 +1,39 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | Customer Analysis Final Round
+# Lab | Customer Analysis Round 6
 
 For this lab, we still keep using the `marketing_customer_analysis.csv` file that you can find in the `files_for_lab` folder.
 
-It's time to put it all together. Remember the previous rounds and follow the steps as shown in previous lectures.
+### Get the data
 
-### 01 - Problem (case study)
+We are using the `marketing_customer_analysis.csv` file.
 
-- Data Description.
-- Goal.
+### Dealing with the data
 
-### 02 - Getting Data
+Already done in the round 2.
 
-- Read the `.csv` file.
+### Explore the data
 
-### 03 - Cleaning/Wrangling/EDA
+Done in the round 3.
 
-- Change headers names.
-- Deal with NaN values.
-- Categorical Features.
-- Numerical Features.
-- Exploration.
+### Processing Data
 
-### 04 - Processing Data
+(_Further processing..._)
 
-- Dealing with outliers.
-- Normalization.
-- Encoding Categorical Data.
-- Splitting into train set and test set.
+- X-y split. (_done_)
+- Normalize (numerical). (_done_)
+- One Hot/Label Encoding (categorical).
+- Concat DataFrames
 
-### 05 - Modeling
+### Linear Regression
 
-- Apply model.
+- Train-test split.
+- Apply linear regression.
 
-### 06 - Model Validation
+### Model Validation
 
-- R2.
-- MSE.
-- RMSE.
-- MAE.
-
-### 07 - Reporting
-
-- Present results.
+- Description:
+  - R2.
+  - MSE.
+  - RMSE.
+  - MAE.
